@@ -27,7 +27,10 @@ class QuranTab extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset(AppAssets.islamiLogoFull),
+            Align(
+              alignment: Alignment.center,
+              child: Image.asset(AppAssets.islamiLogoFull),
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: TextField(

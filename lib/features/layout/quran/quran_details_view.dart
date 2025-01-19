@@ -71,7 +71,7 @@ class _QuranDetailsViewState extends State<QuranDetailsView> {
               child: ListView.builder(
                 padding: EdgeInsets.symmetric(horizontal: 20),
                 itemBuilder: (BuildContext context, int index) => Text(
-                  "${versesList[index]} [${index + 1}]",
+                  " [${index + 1}] ${versesList[index]}",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 24,

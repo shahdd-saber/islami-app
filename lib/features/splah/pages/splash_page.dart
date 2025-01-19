@@ -2,6 +2,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:islami_app/core/constants/app_assets.dart';
 import 'package:islami_app/features/layout/layout_page.dart';
+import 'package:islami_app/features/layout/on_boarding/on_boarding_screen.dart';
 
 class SplashPage extends StatefulWidget {
   static String routeName = 'splash';
@@ -22,7 +23,7 @@ class _SplashPageState extends State<SplashPage> {
       () {
         Navigator.pushReplacementNamed(
           context,
-          LayoutPage.routeName,
+          OnboardingScreens.routeName,
         );
       },
     );

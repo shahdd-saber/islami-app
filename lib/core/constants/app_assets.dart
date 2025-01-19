@@ -27,8 +27,27 @@ abstract class AppAssets {
 
   static String recentImg = 'assets/images/recent_img.png';
 
-  // hadith shapes
+  // hadith
   static String hadithRightShape = 'assets/images/hadith_shape_right.png';
   static String hadithLeftShape = 'assets/images/hadith_shape_left.png';
   static String hadithBottomShape = 'assets/images/hadith_bottom_shape.png';
+  static String hadithCardFull = 'assets/images/hadith_card_full.png';
+
+  static String sebhaimg = 'assets/images/sebha_img.png';
+
+  // radio
+  static String openedAudio = 'assets/images/opened_audio.png';
+  static String closedAudio = 'assets/images/closed_audio.png';
+  static String audio_img = 'assets/images/audio_img.png';
+
+  // on boarding pages
+  static String onboarding_1 = 'assets/images/onboarding_1.png';
+  static String onboarding_2 = 'assets/images/onboarding_2.png';
+  static String onboarding_3 = 'assets/images/onboarding_3.png';
+  static String onboarding_4 = 'assets/images/onboarding_4.png';
+  static String onboarding_5 = 'assets/images/onboarding_5.png';
+
+  // azkar
+  static String azkar1 = 'assets/images/azkar1.png';
+  static String azkar2 = 'assets/images/azkar2.png';
 }
